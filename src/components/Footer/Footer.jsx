@@ -16,16 +16,16 @@ const Footer = () =>{
                     <p>
                         <FormattedMessage
                             id='footer-info'
-                            defaultMessage='Page created by Nahuel61920'
+                            defaultMessage='Page created by Jamie2011'
                         />
                     </p>
                     <p>&copy; {fecha}. All Rights Reserved.</p>
                 </div>
                 <div className="redes-sociales">
-                    <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                    
+                    <a href="https://github.com/Jimmyjam8038/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/therealjamie8038/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=85255255155" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </footer>

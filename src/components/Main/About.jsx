@@ -27,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Esteban Nahuel Carrizo and I am a full stack developer.'
+                        defaultMessage='My name is Jamie TAM and I am a full stack developer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been working on web designing and web development for 4 years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
+                        defaultMessage='I am simple.'
                     />
                 </p>
                 <ul>
@@ -45,7 +45,7 @@ const About = () => (
                                     defaultMessage='Age:'
                                 />
                             </span>
-                            25
+                            14
                         </p>
                     </li>
                     <li>
@@ -53,11 +53,11 @@ const About = () => (
                             <span>
                                 Hobbies:{" "}
                             </span>
-                                Chess, Football and Programming
+                                Badminton, Chess and Gaming
                         </p>
                     </li>
                     <li>
-                        <p><span>Email:</span> estebancarrizo619@gmail.com</p>
+                        <p><span>Email:</span> jamie.wy.tam@gmail.com</p>
                     </li>
                     <li>
                         <p>
@@ -67,23 +67,10 @@ const About = () => (
                                     defaultMessage='From:'
                                 />
                             </span>
-                            Tucumán, Argentina
+                            Hong Kong, China
                         </p>
                     </li>
                 </ul>
-                <div className="mas-info">
-                    <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo buttonDownload">
-                        <FormattedMessage
-                            id='btn-cv'
-                            defaultMessage='Download CV'
-                        />
-                    </a>
-                    <div className='mas-info-btn'>
-                    <Link to="/about">
-                        <ButtomGet/>
-                    </Link>
-                    </div>
-                </div>
             </div>
             <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
                 <h3>skills</h3>

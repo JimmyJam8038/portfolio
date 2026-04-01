@@ -11,7 +11,6 @@ const Service = () => (
         <h2 className="heading">
             <FormattedMessage
                 id='services'
-                defaultMessage='Services'
             />
         </h2>
         <div className="row">
@@ -105,11 +104,6 @@ const Service = () => (
                     />
                 </p>
             </div>
-        </div>
-        <div className='portafolio-btn'>
-            <Link to="/service">
-                <ButtomGet/>
-            </Link>
         </div>
     </section>
 );
