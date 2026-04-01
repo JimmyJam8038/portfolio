@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-Jamie2011",
-  "homepage": "https://Jimmyjam8038.github.io/portfolio/",
+  "name": "portfolio",
+  "homepage": "https://jimmyjam8038.github.io/portfolio/",
   "version": "1.5.0",
   "private": true,
   "dependencies": {
